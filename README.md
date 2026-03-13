@@ -5,7 +5,7 @@ The script fetches and processes user, post, and comment data from https://jsonp
 ## Functionality
 1. Fetches users
 2. Filters only users with even IDs  
-3. Fetches posts - gets the latest 5 posts per user (sorted by date or by-id).
+3. Fetches posts - gets the latest 5 posts per user (sorted by date or by ID).
 4. Fetches comments - gets the latest 3 comments per post (sorted by date or by ID)
 5. Validates data – checks for required fields and logs any issues  
 6. Writes everything to a CSV file called "output.csv"
