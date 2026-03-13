@@ -52,5 +52,5 @@ OR
 - type `cat output.csv` or use a CSV viewer
 
 
-Thank you for your time!
+Thank you for your consideration!
 Thank you for your time!
