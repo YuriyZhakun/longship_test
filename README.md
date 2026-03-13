@@ -39,7 +39,7 @@ Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-`git clone https://github.com/your-username/rublylabs-test.git`
+`git clone https://github.com/your-username/rubylabs-test.git`
 `cd rublylabs-test`
 2. Install (Make sure you have Node.js installed):
 `npm install`
@@ -52,5 +52,5 @@ OR
 - type `cat output.csv` or use a CSV viewer
 
 
-
+Thank you for your consideration!
 Thank you for your time!
