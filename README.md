@@ -22,7 +22,7 @@ The script fetches and processes user, post, and comment data from https://jsonp
 
 ## Configuration
 - You can change main settings in the "CONFIG" object at the top of the index.js file:
-const CONFIG = {
+    const CONFIG = {
   baseUrl: "https://jsonplaceholder.typicode.com",
   maxRetries: 3,           // Maximum number of retries
   retryDelay: 1000,        // Base delay between retries (ms)
@@ -39,18 +39,18 @@ Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-** git clone https://github.com/your-username/rublylabs-test.git
-** cd rublylabs-test
+`git clone https://github.com/your-username/rubylabs-test.git`
+`cd rubylabs-test`
 2. Install (Make sure you have Node.js installed):
-** npm install
+`npm install`
 3. Run script:
-** npm start
+`npm start`
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
-OR 
+OR via command line:
 ** type output.csv
 
-
+Thank you for consideration!
 
 Thank you for considoration!
