@@ -1,5 +1,14 @@
 # QA Run Log
 
+## Run: 2026-03-13 19:18:46 UTC
+**Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
+
+### Issues detected
+- **Line 43** `[formatting]` — incorrect repository name in command (should be backticks-preserved, but the typo is in plain text)
+- **Line 55** `[redundancy]` — duplicate closing line (same as line 56)
+
+---
+
 ## Run: 2026-03-13 19:18:13 UTC
 **Issues found:** 3 | **Applied:** 2 | **Skipped:** 1
 
