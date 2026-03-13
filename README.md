@@ -47,10 +47,10 @@ Unexpected runtime errors
 `npm start`
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
-** Excel or Google Sheets
+* Excel or Google Sheets
 OR via command line:
-** type output.csv
+* type output.csv
 
 Thank you for consideration!
 
-Thank you for considoration!
+Thank you for consideration!
