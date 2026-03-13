@@ -5,12 +5,10 @@ The script fetches and processes user, post, and comment data from https://jsonp
 ## Functionality
 1. Fetches users
 3. Fetch data sorted by ID in descending order (effectively latest by creation time if IDs are sequential)
-sorted by ID (latest by creation order)
 4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
 5. Validates data – checks for required fields and logs any issues  
 6. Writes everything to a CSV file called "output.csv"
 
-Concurrent loading – uses `Promise.all` in conjunction with the `axios` package to speed up comment fetching.
 - Concurrent loading – uses "Promise.all" to speed up comment fetching using axios package
 - Retries with exponential backoff – failed API requests are retried automatically with delay  
 - Logging – logs all key actions, retries, and any issues  
@@ -22,13 +20,16 @@ Concurrent loading – uses `Promise.all` in conjunction with the `axios` packag
 
 ## Configuration
 javascript
+
+javascript
 * javascript
 const CONFIG = {
   API_URL: 'https://jsonplaceholder.typicode.com',
   MAX_ITEMS: 100
 };
 
-  baseUrl: "https://jsonplaceholder.typicode.com",
+
+
   maxRetries: 3,           // Maximum number of retries
   retryDelay: 1000,        // Base delay between retries (ms)
   postsPerUser: 5,         // Number of posts per user
@@ -37,13 +38,13 @@ const CONFIG = {
 }
 
 ## Error Handling
-Network/API failures (with retries)
+- Handle network errors gracefully.
 Missing or bad data (logged, skipped)
 File writing issues
 Unexpected runtime errors
 
 1. Clone or download the project folder:
-** git clone https://github.com/your-username/rublylabs-test.git
+To install dependencies, run `npm install`.
 `npm install`
 2. Install (Make sure you have Node.js installed):
 `npm start`
@@ -55,6 +56,7 @@ Unexpected runtime errors
 OR 
 ** type output.csv
 On Windows: `type output.csv`, On Linux/macOS: `cat output.csv`
+
 
 
 
