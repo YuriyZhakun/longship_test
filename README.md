@@ -4,13 +4,13 @@ The script fetches and processes user, post, and comment data from https://jsonp
 
 ## Functionality
 1. Fetches users
-2. Filters only users with even IDs  
+3. Fetch data sorted by ID in descending order (effectively latest by creation time if IDs are sequential)
 sorted by ID (latest by creation order)
 4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
 5. Validates data – checks for required fields and logs any issues  
 6. Writes everything to a CSV file called "output.csv"
 
-## Features
+Concurrent loading – uses `Promise.all` in conjunction with the `axios` package to speed up comment fetching.
 - Concurrent loading – uses "Promise.all" to speed up comment fetching using axios package
 - Retries with exponential backoff – failed API requests are retried automatically with delay  
 - Logging – logs all key actions, retries, and any issues  
@@ -21,7 +21,7 @@ sorted by ID (latest by creation order)
 - csv-writer – to write data to CSV
 
 ## Configuration
-- You can change main settings in the "CONFIG" object at the top of the index.js file:
+javascript
 * javascript
 const CONFIG = {
   API_URL: 'https://jsonplaceholder.typicode.com',
@@ -42,20 +42,20 @@ Missing or bad data (logged, skipped)
 File writing issues
 Unexpected runtime errors
 
-## Installation
 1. Clone or download the project folder:
 ** git clone https://github.com/your-username/rublylabs-test.git
-`git clone https://github.com/your-username/rubylabs-test.git`
+`npm install`
 2. Install (Make sure you have Node.js installed):
-** npm install
+`npm start`
 3. Run script:
 ** npm start
-It will create a file called output.csv in the root folder
+`Excel or Google Sheets`
 4. You can open output.csv using:
-** Excel or Google Sheets
+`type output.csv`
 OR 
 ** type output.csv
 On Windows: `type output.csv`, On Linux/macOS: `cat output.csv`
+
 
 
 
