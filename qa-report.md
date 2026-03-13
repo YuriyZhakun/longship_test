@@ -1,5 +1,19 @@
 # QA Run Log
 
+## Run: 2026-03-13 18:51:28 UTC
+**Issues found:** 7 | **Applied:** 7 | **Skipped:** 0
+
+### Issues detected
+- **Line 9** `[formatting]` — em dash used instead of hyphen for consistency with other list items
+- **Line 14** `[formatting]` — double quotes used instead of backticks for code identifier
+- **Line 42** `[formatting]` — double asterisks used instead of backticks for command
+- **Line 43** `[formatting]` — double asterisks used instead of backticks for command
+- **Line 45** `[formatting]` — double asterisks used instead of backticks for command
+- **Line 47** `[formatting]` — double asterisks used instead of backticks for command
+- **Line 56** `[grammar]` — typo in English word
+
+---
+
 ## Run: 2026-03-13 18:37:58 UTC
 **Issues found:** 9 | **Applied:** 9 | **Skipped:** 0
 
