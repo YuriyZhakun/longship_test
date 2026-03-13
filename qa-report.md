@@ -1,5 +1,14 @@
 # QA Run Log
 
+## Run: 2026-03-13 19:22:06 UTC
+**Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
+
+### Issues detected
+- **Line 8** `[grammar]` — missing hyphen
+- **Line 50** `[formatting]` — commands not formatted as code
+
+---
+
 ## Run: 2026-03-13 19:21:11 UTC
 **Issues found:** 2 | **Applied:** 1 | **Skipped:** 0
 
