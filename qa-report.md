@@ -1,5 +1,14 @@
 # QA Run Log
 
+## Run: 2026-03-13 19:32:15 UTC
+**Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
+
+### Issues detected
+- **Line 8** `[grammar]` — inconsistent hyphen usage
+- **Line 50** `[formatting]` — incorrect Markdown formatting
+
+---
+
 ## Run: 2026-03-13 19:31:45 UTC
 **Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
 
