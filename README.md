@@ -53,4 +53,4 @@ OR
 
 
 
-Thank you for considoration!
+Thank you for consideration!
