@@ -1,5 +1,22 @@
 # QA Run Log
 
+## Run: 2026-03-13 19:17:44 UTC
+**Issues found:** 6 | **Applied:** 2 | **Skipped:** 2
+
+### Issues detected
+- **Line 8** `[punctuation]` — missing period at the end of the list item
+- **Line 15** `[punctuation]` — missing period at the end of the list item
+- **Line 42** `[typo]` — typo in repository name in URL (if this is unintentional; otherwise ignore)
+- **Line 43** `[typo]` — typo in folder name (must match line 42; if intentional, ignore)
+- **Line 50** `[formatting]` — software names should use backticks for consistency with commands
+- **Line 52** `[formatting]` — command should use backticks, not single quotes
+
+### Skipped operations
+- Line 50: new_text identical to original line
+- Line 52: new_text identical to original line
+
+---
+
 ## Run: 2026-03-13 19:11:47 UTC
 **Issues found:** 3 | **Applied:** 3 | **Skipped:** 0
 
