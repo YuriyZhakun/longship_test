@@ -5,7 +5,7 @@ The script fetches and processes user, post, and comment data from https://jsonp
 ## Functionality
 1. Fetches users
 2. Filters only users with even IDs  
-3. Fetches posts - gets the latest 5 posts per user (sorted by date or by ID)  
+sorted by ID (latest by creation order)
 4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
 5. Validates data – checks for required fields and logs any issues  
 6. Writes everything to a CSV file called "output.csv"
@@ -22,7 +22,12 @@ The script fetches and processes user, post, and comment data from https://jsonp
 
 ## Configuration
 - You can change main settings in the "CONFIG" object at the top of the index.js file:
+* javascript
 const CONFIG = {
+  API_URL: 'https://jsonplaceholder.typicode.com',
+  MAX_ITEMS: 100
+};
+
   baseUrl: "https://jsonplaceholder.typicode.com",
   maxRetries: 3,           // Maximum number of retries
   retryDelay: 1000,        // Base delay between retries (ms)
@@ -40,7 +45,7 @@ Unexpected runtime errors
 ## Installation
 1. Clone or download the project folder:
 ** git clone https://github.com/your-username/rublylabs-test.git
-** cd rublylabs-test
+`git clone https://github.com/your-username/rubylabs-test.git`
 2. Install (Make sure you have Node.js installed):
 ** npm install
 3. Run script:
@@ -50,7 +55,7 @@ It will create a file called output.csv in the root folder
 ** Excel or Google Sheets
 OR 
 ** type output.csv
+On Windows: `type output.csv`, On Linux/macOS: `cat output.csv`
 
 
 
-Thank you for consideration!
