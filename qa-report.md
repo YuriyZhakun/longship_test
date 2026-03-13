@@ -1,5 +1,14 @@
 # QA Run Log
 
+## Run: 2026-03-13 19:31:45 UTC
+**Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
+
+### Issues detected
+- **Line 8** `[grammar]` — inconsistent use of 'by-id' vs 'by ID'
+- **Line 9** `[grammar]` — inconsistent use of 'by-id' vs 'by ID'
+
+---
+
 ## Run: 2026-03-13 19:22:27 UTC
 **Issues found:** 1 | **Applied:** 1 | **Skipped:** 0
 
