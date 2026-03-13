@@ -4,11 +4,13 @@ The script fetches and processes user, post, and comment data from https://jsonp
 
 ## Functionality
 1. Fetches users
-3. Fetch data sorted by ID in descending order (effectively latest by creation time if IDs are sequential)
+2. Filters only users with even IDs  
+3. Fetches posts - gets the latest 5 posts per user (sorted by date or by ID)  
 4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
 5. Validates data – checks for required fields and logs any issues  
 6. Writes everything to a CSV file called "output.csv"
 
+## Features
 - Concurrent loading – uses "Promise.all" to speed up comment fetching using axios package
 - Retries with exponential backoff – failed API requests are retried automatically with delay  
 - Logging – logs all key actions, retries, and any issues  
@@ -19,17 +21,9 @@ The script fetches and processes user, post, and comment data from https://jsonp
 - csv-writer – to write data to CSV
 
 ## Configuration
-javascript
-
-javascript
-* javascript
+- You can change main settings in the "CONFIG" object at the top of the index.js file:
 const CONFIG = {
-  API_URL: 'https://jsonplaceholder.typicode.com',
-  MAX_ITEMS: 100
-};
-
-
-
+  baseUrl: "https://jsonplaceholder.typicode.com",
   maxRetries: 3,           // Maximum number of retries
   retryDelay: 1000,        // Base delay between retries (ms)
   postsPerUser: 5,         // Number of posts per user
@@ -38,26 +32,25 @@ const CONFIG = {
 }
 
 ## Error Handling
-- Handle network errors gracefully.
+Network/API failures (with retries)
 Missing or bad data (logged, skipped)
 File writing issues
 Unexpected runtime errors
 
+## Installation
 1. Clone or download the project folder:
-To install dependencies, run `npm install`.
-`npm install`
+** git clone https://github.com/your-username/rublylabs-test.git
+** cd rublylabs-test
 2. Install (Make sure you have Node.js installed):
-`npm start`
+** npm install
 3. Run script:
 ** npm start
-`Excel or Google Sheets`
+It will create a file called output.csv in the root folder
 4. You can open output.csv using:
-`type output.csv`
+** Excel or Google Sheets
 OR 
 ** type output.csv
-On Windows: `type output.csv`, On Linux/macOS: `cat output.csv`
 
 
 
-
-
+Thank you for considoration!
