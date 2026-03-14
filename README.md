@@ -33,13 +33,13 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value === null || value === undefined; }
+const isEmpty = value => value === null || value === undefined;
 
 ## Error Handling
-Network/API failures (with retries)
-Missing or bad data (logged, skipped)
-File writing issues
-Unexpected runtime errors
+- `Network/API failures (with retries)`
+- `Missing or bad data (logged, skipped)`
+- `File writing issues`
+- `Unexpected runtime errors`
 
 ## Installation
 1. Clone or download the project folder:
@@ -51,7 +51,7 @@ Unexpected runtime errors
 **`npm start`**
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
-** Excel or Google Sheets
+**`Excel or Google Sheets`**
 OR
 **`type output.csv`**
 
