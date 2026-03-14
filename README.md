@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value === null || value === undefined; }
+const isEmpty = value => value === null || value === undefined;
 
 ## Error Handling
 Network/API failures (with retries)
