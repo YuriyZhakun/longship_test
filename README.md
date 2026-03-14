@@ -40,7 +40,7 @@ Unexpected runtime errors
 ## Installation
 1. Clone or download the project folder:
 ** git clone https://github.com/your-username/rubylabs-test.git
-** cd rublylabs-test
+** cd rubylabs-test
 2. Install (Make sure you have Node.js installed):
 ** npm install
 3. Run script:
