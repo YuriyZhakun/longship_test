@@ -33,25 +33,31 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value === null || value === undefined || value === ''; }
+function isEmpty(value) {
+  if (value === null || value === undefined) {
+    return true;
+  }
+  return false;
+}
 
 ## Error Handling
-- Network/API failures (with retries)
-- Missing or bad data (logged, skipped)
-- File writing issues
-- Unexpected runtime errors
+Network/API failures (with retries)
+Missing or bad data (logged, skipped)
+File writing issues
+Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-``` git clone https://github.com/your-username/rublylabs-test.git
+** git clone https://github.com/your-username/rublylabs-test.git
+** cd rublylabs-test
 2. Install (Make sure you have Node.js installed):
-``` npm install
-``` npm start
-```
+** npm install
+3. Run script:
+** npm start
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
 OR
-``` type output.csv
+** type output.csv
 
-Thank you for consideration!
+Thank you for considoration!
