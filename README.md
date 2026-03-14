@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value == null || value === ''; }
+function isEmpty(value) { return !value && value !== 0; }
 
 ## Error Handling
 Network/API failures (with retries)
@@ -43,16 +43,26 @@ Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-** git clone https://github.com/your-username/ruby**l**abs-test.git
+```
 ** cd rublylabs-test
+```
 2. Install (Make sure you have Node.js installed):
+ cd rubylabs-test
 ** npm install
+```
 3. Run script:
+ npm install
 ** npm start
+```
 It will create a file called output.csv in the root folder
+ npm start
 4. You can open output.csv using:
 ** Excel or Google Sheets
+```
 OR
+Excel or Google Sheets
 ** type output.csv
+```
 
+type output.csv
 Thank you for **consideration**!
