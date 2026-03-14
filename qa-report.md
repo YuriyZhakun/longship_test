@@ -1,5 +1,23 @@
 # QA Run Log
 
+## Run: 2026-03-14 15:48:58 UTC
+**Issues found:** 6 | **Applied:** 3 | **Skipped:** 0
+
+### Issues detected
+- **Line 36** `[code_quality]` `medium` — The function can be simplified to a one-liner with identical behavior using optional chaining and nullish check
+- **Line 39** `[formatting]` `medium` — Command-like text 'Network/API failures (with retries)' is unformatted and indistinguishable from prose
+- **Line 40** `[formatting]` `medium` — Command-like text 'Missing or bad data (logged, skipped)' is unformatted and indistinguishable from prose
+- **Line 41** `[formatting]` `medium` — Command-like text 'File writing issues' is unformatted and indistinguishable from prose
+- **Line 42** `[formatting]` `medium` — Command-like text 'Unexpected runtime errors' is unformatted and indistinguishable from prose
+- **Line 54** `[formatting]` `medium` — Command 'Excel or Google Sheets' is unformatted plain text with no markup
+
+### Operations applied
+- `replace` Line 54 → 1 line(s)
+- `replace_range` Lines 39-42 → 4 line(s)
+- `replace` Line 36 → 1 line(s)
+
+---
+
 ## Run: 2026-03-14 15:46:29 UTC
 **Issues found:** 2 | **Applied:** 1 | **Skipped:** 1
 
