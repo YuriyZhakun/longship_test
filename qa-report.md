@@ -1,5 +1,35 @@
 # QA Run Log
 
+## Run: 2026-03-14 11:07:21 UTC
+**Issues found:** 7 | **Applied:** 6 | **Skipped:** 6
+
+### Issues detected
+- **Line 39** `[structure]` `high` — Duplicate heading '## Error Handling' (line 38 and 39) causes incorrect Markdown rendering
+- **Line 36** `[code_quality]` `medium` — Function isEmpty can be simplified to a one-liner arrow function without braces
+- **Line 48** `[formatting]` `high` — Unclosed code block starting at line 46; line 48 is an empty code fence
+- **Line 50** `[formatting]` `high` — Code block starting at line 49 is not closed before list item 3 begins
+- **Line 53** `[formatting]` `high` — Code block starting at line 52 is not closed before line 55
+- **Line 58** `[formatting]` `high` — Code block starting at line 57 is not closed
+- **Line 60** `[formatting]` `high` — Code block starting at line 60 is not closed
+
+### Operations applied
+- Line 60: `replace`
+- Line 55: `delete`
+- Line 54: `insert_after`
+- Line 51: `insert_after`
+- Line 40: `delete`
+- Line 37: `delete`
+
+### Skipped operations
+- Line 36: new_text identical to original line
+- Line 39: new_text identical to original line
+- Line 48: new_text identical to original line
+- Line 50: new_text identical to original line
+- Line 53: new_text identical to original line
+- Line 58: new_text identical to original line
+
+---
+
 ## Run: 2026-03-14 11:06:46 UTC
 **Issues found:** 8 | **Applied:** 8 | **Skipped:** 3
 
