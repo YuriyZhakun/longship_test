@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Utility
 
-const isEmpty = value => value === null || value === undefined;
+const isEmpty = value => value == null;
 
 ## Error Handling
 - `Network/API failures (with retries)`
@@ -51,8 +51,8 @@ const isEmpty = value => value === null || value === undefined;
 **`npm start`**
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
-**`Excel or Google Sheets`**
+- **`Excel or Google Sheets`**
 OR
-**`type output.csv`**
+- **`type output.csv`**
 
 Thank you for consideration!
