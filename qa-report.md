@@ -1,5 +1,28 @@
 # QA Run Log
 
+## Run: 2026-03-14 11:21:23 UTC
+**Issues found:** 7 | **Applied:** 7 | **Skipped:** 0
+
+### Issues detected
+- **Line 63** `[grammar]` `high` — Typo in word 'considoration'
+- **Lines 36-41** `[code_quality]` `medium` — Function isEmpty spans 6 lines but can be simplified to a single return statement without changing behaviour
+- **Line 44** `[formatting]` `medium` — Inconsistent formatting in 'Error Handling' section - missing list markers (-) for items
+- **Line 51** `[formatting]` `high` — Incorrect Markdown for code block - uses ** instead of backticks
+- **Line 52** `[formatting]` `high` — Incorrect Markdown for code block - uses ** instead of backticks
+- **Line 54** `[formatting]` `high` — Incorrect Markdown for code block - uses ** instead of backticks
+- **Line 56** `[formatting]` `high` — Incorrect Markdown for code block - uses ** instead of backticks
+
+### Operations applied
+- `replace` Line 63 → 1 line(s)
+- `replace` Line 56 → 1 line(s)
+- `replace` Line 54 → 1 line(s)
+- `replace` Line 52 → 1 line(s)
+- `replace` Line 51 → 1 line(s)
+- `replace_range` Lines 44-47 → 4 line(s)
+- `replace_range` Lines 36-41 → 1 line(s)
+
+---
+
 ## Run: 2026-03-14 11:07:21 UTC
 **Issues found:** 7 | **Applied:** 6 | **Skipped:** 6
 
