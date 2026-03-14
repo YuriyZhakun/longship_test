@@ -1,4 +1,4 @@
-# RubyLabs Test Project
+RubyLabs Test Project
 
 The script fetches and processes user, post, and comment data from https://jsonplaceholder.typicode.com/.
 
@@ -39,8 +39,8 @@ Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-** git clone https://github.com/your-username/rubylabs-test.git
-** cd rubylabs-test
+** git clone https://github.com/your-username/rublylabs-test.git
+** cd rublylabs-test
 2. Install (Make sure you have Node.js installed):
 ** npm install
 3. Run script:
@@ -53,4 +53,4 @@ OR
 
 
 
-Thank you for consideration!
+Thank you for considoration!
