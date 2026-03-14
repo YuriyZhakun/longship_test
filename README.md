@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value === null || value === undefined; }
+function isEmpty(value) { return value == null; }
 
 ## Error Handling
 - Network/API failures (with retries)
@@ -53,6 +53,6 @@ It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
 OR
-** type output.csv
+`type output.csv`
 
 Thank you for consideration!
