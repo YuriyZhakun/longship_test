@@ -1,23 +1,23 @@
-RubyLabs Test Project
+# RubyLabs Test Project
 
-The script fetches and processes user, post, and comment data from https://jsonplaceholder.typicode.com/.
+The script fetches and precesses user, post, and comment data from https://jsonplaceholder.typicode.com/.
 
 ## Functionality
 1. Fetches users
-2. Filters only users with even IDs  
-3. Fetches posts - gets the latest 5 posts per user (sorted by date or by ID)  
-4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
-5. Validates data – checks for required fields and logs any issues  
-6. Writes everything to a CSV file called "output.csv"
+2. Filters only users with even IDs
+3. Fetches posts - gets the latest 5 posts per user (sorted by date or by ID)
+4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)
+5. Validates data – checks for required fields and logs any issues
+6. Writs everything to a CSV file called "output.csv"
 
 ## Features
 - Concurrent loading – uses "Promise.all" to speed up comment fetching using axios package
-- Retries with exponential backoff – failed API requests are retried automatically with delay  
-- Logging – logs all key actions, retries, and any issues  
+- Retries with exponential backoff – failed API requests are retried automaticaly with delay
+- Logging – logs all key actions, retries, and any issues
 - Error handling – handles errors without stopping the whole script
 
 ## Dependencies
-- axios – for making API requests  
+- axios – for making API requests
 - csv-writer – to write data to CSV
 
 ## Configuration
@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Error Handling
 Network/API failures (with retries)
-Missing or bad data (logged, skipped)
+Missing or bad data (logged, skiped)
 File writing issues
 Unexpected runtime errors
 
@@ -48,9 +48,7 @@ Unexpected runtime errors
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
-OR 
+OR
 ** type output.csv
 
-
-
-Thank you for your consideration!
+Thank you for considiration!
