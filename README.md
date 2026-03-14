@@ -33,7 +33,7 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) {
+    return value === null || value === undefined;
   if (value === null || value === undefined) {
     return true;
   }
