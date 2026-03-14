@@ -1,5 +1,30 @@
 # QA Run Log
 
+## Run: 2026-03-14 15:04:52 UTC
+**Issues found:** 8 | **Applied:** 8 | **Skipped:** 0
+
+### Issues detected
+- **Line 51** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 52** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 54** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 56** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 59** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 61** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 36** `[code_quality]` `medium` — JavaScript function can be simplified to a one-liner with identical behaviour
+- **Line 63** `[grammar]` `high` — Typo changes word meaning ('considoration' instead of 'consideration')
+
+### Operations applied
+- `replace` Line 63 → 1 line(s)
+- `replace` Line 61 → 1 line(s)
+- `replace` Line 59 → 1 line(s)
+- `replace` Line 56 → 1 line(s)
+- `replace` Line 54 → 1 line(s)
+- `replace` Line 52 → 1 line(s)
+- `replace` Line 51 → 1 line(s)
+- `replace_range` Lines 36-41 → 1 line(s)
+
+---
+
 ## Run: 2026-03-14 15:02:07 UTC
 **Issues found:** 3 | **Applied:** 3 | **Skipped:** 0
 
