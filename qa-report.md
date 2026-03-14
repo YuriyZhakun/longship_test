@@ -1,5 +1,22 @@
 # QA Run Log
 
+## Run: 2026-03-14 11:29:36 UTC
+**Issues found:** 3 | **Applied:** 2 | **Skipped:** 1
+
+### Issues detected
+- **Line 36** `[code_quality]` `medium` — The `isEmpty` function can be simplified to a one-liner arrow function without changing behavior.
+- **Line 54** `[formatting]` `high` — Markdown bold syntax is incorrectly applied to a multi-word line without proper escaping or continuation, which may render incorrectly.
+- **Line 56** `[formatting]` `high` — The `type output.csv` command is not properly formatted as inline code in Markdown.
+
+### Operations applied
+- `replace` Line 54 → 1 line(s)
+- `replace` Line 36 → 1 line(s)
+
+### Skipped operations
+- `replace` line 56: new_text is identical to original line — no change needed
+
+---
+
 ## Run: 2026-03-14 11:26:48 UTC
 **Issues found:** 3 | **Applied:** 2 | **Skipped:** 1
 
