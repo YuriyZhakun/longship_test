@@ -1,5 +1,20 @@
 # QA Run Log
 
+## Run: 2026-03-15 11:13:53 UTC
+**Issues found:** 3 | **Applied:** 3 | **Skipped:** 0
+
+### Issues detected
+- **Line 36** `[code_quality]` `medium` — The function can be simplified to a one-liner with identical behavior using nullish check
+- **Line 39** `[formatting]` `medium` — Duplicate heading 'Error Handling' makes the structure unclear
+- **Lines 40-42** `[formatting]` `medium` — Error handling items are unformatted and indistinguishable from prose
+
+### Operations applied
+- `replace_range` Lines 40-42 → 3 line(s)
+- `replace` Line 39 → 1 line(s)
+- `replace` Line 36 → 1 line(s)
+
+---
+
 ## Run: 2026-03-15 11:11:16 UTC
 **Issues found:** 6 | **Applied:** 6 | **Skipped:** 0
 
