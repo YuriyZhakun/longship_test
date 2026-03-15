@@ -60,4 +60,4 @@ It will create a file called output.csv in the root folder
 OR
 ** type output.csv
 
-Thank you for considoration!
+Thank you for consideration!
