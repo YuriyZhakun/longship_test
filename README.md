@@ -31,9 +31,7 @@ const CONFIG = {
   outputFile: 'output.csv'
 }
 
-## Utility
 
-const isEmpty = value => value == null;
 
 ## Error Handling
 - `Network/API failures` (with retries)
