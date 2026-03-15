@@ -33,13 +33,13 @@ const CONFIG = {
 
 ## Utility
 
-const isEmpty = value => value === null || value === undefined;
+const isEmpty = value => value == null;
 
 ## Error Handling
-### Error Handling
-Missing or bad data (logged, skipped)
-File writing issues
-Unexpected runtime errors
+### Data Validation and Error Handling
+- `Missing or bad data (logged, skipped)`
+- `File writing issues`
+- `Unexpected runtime errors`
 
 ## Installation
 1. Clone or download the project folder:
