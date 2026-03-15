@@ -33,10 +33,15 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value === null || value === undefined; }
+function isEmpty(value) {
+  if (value === null || value === undefined) {
+    return true;
+  }
+  return false;
+}
 
 ## Error Handling
-### Error Handling
+Network/API failures (with retries)
 Missing or bad data (logged, skipped)
 File writing issues
 Unexpected runtime errors
@@ -55,4 +60,4 @@ It will create a file called output.csv in the root folder
 OR
 ** type output.csv
 
-Thank you for consideration!
+Thank you for considoration!
