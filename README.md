@@ -48,11 +48,11 @@ const isEmpty = value => value === null || value === undefined;
 2. Install (Make sure you have Node.js installed):
 - `npm install`
 3. Run script:
-** `npm start`
+- **`npm start`**
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
 OR
-** `type output.csv`
+- **`type output.csv`**
 
 Thank you for consideration!
