@@ -33,11 +33,11 @@ const CONFIG = {
 
 ## Utility
 
-function isEmpty(value) { return value == null; }
+const isEmpty = value => value == null;
 
 ## Error Handling
 ### Error Handling Details
-- Missing or bad data (logged, skipped)
+- `Missing or bad data (logged, skipped)`
 - File writing issues
 - Unexpected runtime errors
 
