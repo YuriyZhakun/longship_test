@@ -1,5 +1,22 @@
 # QA Run Log
 
+## Run: 2026-03-16 06:12:25 UTC
+**Issues found:** 4 | **Applied:** 4 | **Skipped:** 0
+
+### Issues detected
+- **Lines 39-39** `[formatting]` `medium` — Duplicate heading 'Error Handling' makes the structure unclear
+- **Lines 40-42** `[formatting]` `medium` — Error handling items are unformatted and indistinguishable from prose
+- **Line 51** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 56** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+
+### Operations applied
+- `replace` Line 56 → 1 line(s)
+- `replace` Line 51 → 1 line(s)
+- `replace_range` Lines 40-42 → 3 line(s)
+- `replace` Line 39 → 1 line(s)
+
+---
+
 ## Run: 2026-03-16 06:10:41 UTC
 **Issues found:** 3 | **Applied:** 3 | **Skipped:** 0
 
