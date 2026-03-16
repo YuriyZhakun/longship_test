@@ -1,5 +1,18 @@
 # QA Run Log
 
+## Run: 2026-03-16 06:15:34 UTC
+**Issues found:** 2 | **Applied:** 2 | **Skipped:** 0
+
+### Issues detected
+- **Line 51** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+- **Line 56** `[formatting]` `medium` — Command is unformatted plain text without backticks, making it indistinguishable from regular prose
+
+### Operations applied
+- `replace` Line 56 → 1 line(s)
+- `replace` Line 51 → 1 line(s)
+
+---
+
 ## Run: 2026-03-16 06:14:23 UTC
 **Issues found:** 4 | **Applied:** 4 | **Skipped:** 0
 
